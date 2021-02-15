@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require('path');
-
+var port = process.env.PORT || 8080;
 // Copy the .env.example in the root into a .env file in this folder
 const envFilePath = path.resolve(__dirname, './.env');
 const env = require("dotenv").config({ path: envFilePath });
@@ -144,4 +144,4 @@ app.post("/webhook", async (req, res) => {
   res.sendStatus(200);
 });
 
-app.listen(4242, () => console.log(`Node server listening at http://localhost:${4242}/`));
+app.listen(port, () => console.log(`Node server listening at http://localhost:${4242}/`));
