@@ -702,4 +702,7 @@ input[type="number"]::-webkit-outer-spin-button {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
+  .main img{
+  max-width:80%;
+  }
 }
