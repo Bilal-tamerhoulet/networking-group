@@ -64,7 +64,7 @@ app.post("/create-checkout-session", async (req, res) => {
       //allow_promotion_codes: true,
       // ?session_id={CHECKOUT_SESSION_ID} means the redirect will have the session ID set as a query param
       success_url: `${domainURL}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${domainURL}/networking-group`,
+      cancel_url: `https://join.igniteyourlife.global/`,
     });
 
     res.send({
