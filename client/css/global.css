@@ -705,6 +705,9 @@ body {
     border-radius: 0;
     
   }
+  .sc{
+  margin-top:100px !important;
+  }
   .price-table-container section:first-of-type{
     border-right: 0;
     border-bottom: 2px solid #3B8592;
