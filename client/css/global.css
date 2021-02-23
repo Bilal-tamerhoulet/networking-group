@@ -636,6 +636,13 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 /* More Edits */
+body {
+  font-family: 'Roboto', sans-serif;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', serif;
+ }
 .main{
   background-color: #FFFFFA;
 }
@@ -671,6 +678,12 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 80%;
   margin: 150px auto;
 }
+.cards-s .card{
+  border:none;
+  background: #ffa980;
+  font-weight: bold;
+}
+
 @media (max-width: 767.98px) {
   .sr-main {
     padding-top: 0px;
@@ -704,5 +717,8 @@ input[type="number"]::-webkit-outer-spin-button {
   }
   .main img{
   max-width:80%;
+  }
+  .sv{
+    margin-bottom: 50px;
   }
 }
